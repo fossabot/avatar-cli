@@ -1,0 +1,26 @@
+{
+  "name": "avatar-cli",
+  "version": "0.0.0",
+  "description": "Command line interface that can fetch your avatars",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KompKK/avatar-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "avatar"
+  ],
+  "author": "KompKK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KompKK/avatar-cli/issues"
+  },
+  "homepage": "https://github.com/KompKK/avatar-cli#readme",
+  "devDependencies": {
+    "xo": "^0.24.0"
+  }
+}
