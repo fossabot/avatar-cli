@@ -4,7 +4,7 @@
   "description": "Command line interface that can fetch your avatars",
   "main": "index.js",
   "scripts": {
-    "test": "xo"
+    "test": "xo && jest"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,27 @@
   },
   "homepage": "https://github.com/KompKK/avatar-cli#readme",
   "devDependencies": {
+    "jest": "^24.1.0",
     "xo": "^0.24.0"
+  },
+  "xo": {
+    "space": true,
+    "globals": [
+      "describe",
+      "it",
+      "expect"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2",
+    "minimist": "^1.2.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "bin": {
+    "avatar-cli": "./index.js"
   }
 }
