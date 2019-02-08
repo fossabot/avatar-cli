@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "chalk": "^2.4.2",
-    "clui": "^0.3.6",
+    "cli-spinner": "^0.2.8",
     "figlet": "^1.2.1",
     "inquirer": "^6.2.2",
     "minimist": "^1.2.0",
