@@ -1,6 +1,6 @@
 {
   "name": "avatar-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Command line interface that can fetch your avatars",
   "main": "index.js",
   "scripts": {
